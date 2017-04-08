@@ -1,0 +1,13 @@
+coordinate:
+  groupId: com.github.jomof
+  artifactId: stb/divide
+  version: ${version}
+interfaces:
+  headers:
+    file: ${wf}/stb_divide.h
+example: |
+  #define STB_DIVIDE_IMPLEMENTATION
+  #include <stb_divide.h>
+  void f() {
+    stb_div_eucl(5, 6);
+  }
