@@ -6,6 +6,7 @@ dependencies:
 - compile: .cdep/fullfill/output/layout/cdep-manifest-dxt.yml
 - compile: .cdep/fullfill/output/layout/cdep-manifest-easy_font.yml
 - compile: .cdep/fullfill/output/layout/cdep-manifest-connected_components.yml
+- compile: .cdep/fullfill/output/layout/cdep-manifest-rect_pack.yml
 - compile: .cdep/fullfill/output/layout/cdep-manifest-leakcheck.yml
 - compile: .cdep/fullfill/output/layout/cdep-manifest-perlin.yml
 - compile: .cdep/fullfill/output/layout/cdep-manifest-image.yml

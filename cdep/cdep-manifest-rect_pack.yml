@@ -1,0 +1,11 @@
+coordinate:
+  groupId: com.github.jomof
+  artifactId: stb/rect_pack
+  version: ${version}
+interfaces:
+  headers:
+    file: ${source}/stb_rect_pack.h
+example: |
+  #define STB_RECT_PACK_IMPLEMENTATION
+  #include "stb_rect_pack_resize.h"
+  
