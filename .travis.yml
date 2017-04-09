@@ -9,9 +9,8 @@ addons:
 fail_fast: true
 script:
 - cd cdep
-- ./cdep fullfill .. ${TRAVIS_TAG:-0.0.0} $(ls cdep-manifest*.yml)
+- ./cdep fullfill .. ${TRAVIS_TAG:-0.0.0} $(ls cdep-manifest*.yml) | tee metafist.txt
 - ./cdep
 - ./cmakeify -wf .cdep/examples/cmake  --group-id com.github.jomof --artifact-id stb-examples --target-version 0.0.0
 - ./wget https://com.github.jomof/jomof/tools
-- printenv
-#- bin/linux/amd64/github-release upload --user $user --repo $repo --tag $tag --name $name --file $file
+- cat metafist | github_release_folder jomof stb ${TRAVIS_TAG:-none}
