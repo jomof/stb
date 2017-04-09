@@ -1,0 +1,11 @@
+coordinate:
+  groupId: com.github.jomof
+  artifactId: stb/image_resize
+  version: ${version}
+interfaces:
+  headers:
+    file: ${source}/stb_image_resize.h
+example: |
+  #define STB_IMAGE_RESIZE_IMPLEMENTATION
+  #include "stb_image_resize.h"
+  

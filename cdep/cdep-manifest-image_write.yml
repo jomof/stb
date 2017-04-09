@@ -1,0 +1,11 @@
+coordinate:
+  groupId: com.github.jomof
+  artifactId: stb/image_write
+  version: ${version}
+interfaces:
+  headers:
+    file: ${source}/stb_image_write.h
+example: |
+  #define STB_IMAGE_WRITE_IMPLEMENTATION
+  #include "stb_image_resize.h"
+  
