@@ -1,4 +1,6 @@
 builders: [cmake, cmakeExamples]
 
 dependencies:
-- compile: ./build/zips/cdep-manifest.yml
+- compile: .cdep/fullfill/output/layout/cdep-manifest-c_lexer.yml
+- compile: .cdep/fullfill/output/layout/cdep-manifest-divide.yml
+

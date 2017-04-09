@@ -1,3 +1,4 @@
 language: C
 script:
 - cdep/cdep fullfill . ${TRAVIS_TAG:-0.0.0} $(ls cdep/cdep-manifest*.yml)
+- cdep/cdep -wf cdep
