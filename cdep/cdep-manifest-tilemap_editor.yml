@@ -6,6 +6,5 @@ interfaces:
   headers:
     file: ${source}/stb_tilemap_editor.h
 example: |
-  #define STB_TILEMAP_EDITOR_IMPLEMENTATION
   #include "stb_tilemap_editor.h"
   
