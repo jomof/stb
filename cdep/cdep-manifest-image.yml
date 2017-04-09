@@ -1,0 +1,11 @@
+coordinate:
+  groupId: com.github.jomof
+  artifactId: stb/image
+  version: ${version}
+interfaces:
+  headers:
+    file: ${source}/stb_image.h
+example: |
+  #define STB_IMAGE_IMPLEMENTATION
+  #include "stb_image.h"
+  
