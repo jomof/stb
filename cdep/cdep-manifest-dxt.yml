@@ -1,0 +1,10 @@
+coordinate:
+  groupId: com.github.jomof
+  artifactId: stb/dxt
+  version: ${version}
+interfaces:
+  headers:
+    file: ${source}/dxt.h
+example: |
+  #define STB_DXT_IMPLEMENTATION
+  #include "stb_dxt.h"
