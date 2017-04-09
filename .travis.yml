@@ -10,6 +10,5 @@ script:
 - cd cdep
 - ./cdep fullfill .. ${TRAVIS_TAG:-0.0.0} $(ls cdep-manifest*.yml)
 - ./cdep
-- ./cmakeify --version
-- ./cmakeify -wf .cdep/examples/cmake
+- ./cmakeify -wf .cdep/examples/cmake  --group-id com.github.jomof --artifact-id stb-examples --target-version 0.0.0
 
