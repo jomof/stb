@@ -1,0 +1,11 @@
+coordinate:
+  groupId: com.github.jomof
+  artifactId: stb/truetype
+  version: ${version}
+interfaces:
+  headers:
+    file: ${source}/stb_truetype.h
+example: |
+  #define STB_TRUETYPE_IMPLEMENTATION
+  #include "stb_truetype.h"
+  

@@ -16,4 +16,5 @@ dependencies:
 - compile: .cdep/fullfill/output/layout/cdep-manifest-sprintf.yml
 - compile: .cdep/fullfill/output/layout/cdep-manifest-textedit.yml
 - compile: .cdep/fullfill/output/layout/cdep-manifest-tilemap_editor.yml
+- compile: .cdep/fullfill/output/layout/cdep-manifest-truetype.yml
 
