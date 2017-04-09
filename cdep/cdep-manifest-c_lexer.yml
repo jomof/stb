@@ -7,6 +7,7 @@ interfaces:
     file: ${source}/stb_c_lexer.h
 example: |
   #define STB_C_LEXER_IMPLEMENTATION
+  #include <stb_c_lexer.h>
   #include <stdio.h> 
   #include <stdlib.h>
 
