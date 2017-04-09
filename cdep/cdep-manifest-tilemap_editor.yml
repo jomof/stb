@@ -1,0 +1,11 @@
+coordinate:
+  groupId: com.github.jomof
+  artifactId: stb/tilemap_editor
+  version: ${version}
+interfaces:
+  headers:
+    file: ${source}/stb_tilemap_editor.h
+example: |
+  #define STB_TILEMAP_EDITOR_IMPLEMENTATION
+  #include "stb_tilemap_editor.h"
+  
