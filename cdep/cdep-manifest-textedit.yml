@@ -6,6 +6,5 @@ interfaces:
   headers:
     file: ${source}/stb_textedit.h
 example: |
-  #define STB_TEXTEDIT_IMPLEMENTATION
   #include "stb_textedit.h"
   
