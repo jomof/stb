@@ -1,7 +1,14 @@
 language: C
+addons:
+  apt:
+    sources:
+    - ubuntu-toolchain-r-test
+    packages:
+    - gcc-4.8
+    - g++-4.8
 script:
 - cd cdep
-- cdep fullfill . ${TRAVIS_TAG:-0.0.0} $(ls cdep-manifest*.yml)
+- ./cdep fullfill .. ${TRAVIS_TAG:-0.0.0} $(ls cdep-manifest*.yml)
 - ./cdep
-- ./cmakeify -wf .cdep/examples/cmake
+- ./cmakeify -wf .cdep/examples/cmake  --group-id com.github.jomof --artifact-id stb-examples --target-version 0.0.0
 
