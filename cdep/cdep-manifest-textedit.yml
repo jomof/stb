@@ -1,0 +1,11 @@
+coordinate:
+  groupId: com.github.jomof
+  artifactId: stb/textedit
+  version: ${version}
+interfaces:
+  headers:
+    file: ${source}/stb_textedit.h
+example: |
+  #define STB_TEXTEDIT_IMPLEMENTATION
+  #include "stb_textedit.h"
+  

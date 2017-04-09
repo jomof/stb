@@ -13,4 +13,6 @@ dependencies:
 - compile: .cdep/fullfill/output/layout/cdep-manifest-image_resize.yml
 - compile: .cdep/fullfill/output/layout/cdep-manifest-image_write.yml
 - compile: .cdep/fullfill/output/layout/cdep-manifest-herringbone_wang_tile.yml
+- compile: .cdep/fullfill/output/layout/cdep-manifest-sprintf.yml
+- compile: .cdep/fullfill/output/layout/cdep-manifest-textedit.yml
 

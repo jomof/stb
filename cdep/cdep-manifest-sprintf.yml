@@ -1,0 +1,11 @@
+coordinate:
+  groupId: com.github.jomof
+  artifactId: stb/sprintf
+  version: ${version}
+interfaces:
+  headers:
+    file: ${source}/stb_sprintf.h
+example: |
+  #define STB_SPRINTF_IMPLEMENTATION
+  #include "stb_sprintf.h"
+  
