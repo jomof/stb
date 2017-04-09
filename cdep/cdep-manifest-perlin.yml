@@ -1,0 +1,11 @@
+coordinate:
+  groupId: com.github.jomof
+  artifactId: stb/perlin
+  version: ${version}
+interfaces:
+  headers:
+    file: ${source}/stb_perlin.h
+example: |
+  #define STB_PERLIN_IMPLEMENTATION
+  #include "stb_perlin.h"
+  

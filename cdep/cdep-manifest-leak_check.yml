@@ -1,0 +1,11 @@
+coordinate:
+  groupId: com.github.jomof
+  artifactId: stb/leak_check
+  version: ${version}
+interfaces:
+  headers:
+    file: ${source}/stb_leak_check.h
+example: |
+  #define STB_LEAK_CHECK_IMPLEMENTATION
+  #include "stb_leak_check.h"
+  
