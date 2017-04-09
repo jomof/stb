@@ -4,7 +4,7 @@ coordinate:
   version: ${version}
 interfaces:
   headers:
-    file: ${source}/dxt.h
+    file: ${source}/stb_dxt.h
 example: |
   #define STB_DXT_IMPLEMENTATION
   #include "stb_dxt.h"
