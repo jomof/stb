@@ -8,6 +8,7 @@ interfaces:
 example: |
   #define STB_C_LEXER_IMPLEMENTATION
   #include <stb_c_lexer.h>
+  #include <stdio.h>
   void f() {
      FILE *f = fopen("stb_c_lexer.h","rb");
      char *text = (char *) malloc(1 << 20);
