@@ -4,7 +4,7 @@ coordinate:
   version: ${version}
 interfaces:
   headers:
-    file: ${wf}/stb_divide.h
+    file: ${source}/stb_divide.h
 example: |
   #define STB_DIVIDE_IMPLEMENTATION
   #include <stb_divide.h>
