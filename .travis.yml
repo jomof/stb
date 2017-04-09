@@ -13,4 +13,4 @@ script:
 - ./cdep
 #- ./cmakeify -wf .cdep/examples/cmake  --group-id com.github.jomof --artifact-id stb-examples --target-version 0.0.0
 - git clone https://github.com/jomof/tools
-- tools/github_release_folder jomof stb ${TRAVIS_TAG:-none} .cdep/fullfill/output/layout/*
+- tools/github_release_folder jomof stb ${TRAVIS_TAG:-none} .cdep/fullfill/output/layout
