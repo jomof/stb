@@ -1,11 +1,11 @@
 coordinate:
   groupId: com.github.jomof
-  artifactId: stb/voxel_renderer
+  artifactId: stb/voxel_render
   version: ${version}
 interfaces:
   headers:
-    file: ${source}/stb_voxel_renderer.h
+    file: ${source}/stb_voxel_render.h
 example: |
-  #define STB_VOXEL_RENDERER_IMPLEMENTATION
+  #define STB_VOXEL_RENDER_IMPLEMENTATION
   #include "stb_voxel_renderer.h"
   
