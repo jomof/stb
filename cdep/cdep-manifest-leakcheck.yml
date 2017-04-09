@@ -7,5 +7,5 @@ interfaces:
     file: ${source}/stb_leakcheck.h
 example: |
   #define STB_LEAKCHECK_IMPLEMENTATION
-  #include "stb_leak_check.h"
+  #include "stb_leakcheck.h"
   
