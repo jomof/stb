@@ -1,5 +1,7 @@
 language: C
 script:
 - cd cdep
-- ./cdep fullfill . ${TRAVIS_TAG:-0.0.0} $(ls cdep-manifest*.yml)
+- cdep fullfill . ${TRAVIS_TAG:-0.0.0} $(ls cdep-manifest*.yml)
 - ./cdep
+- ./cmakeify -wf .cdep/examples/cmake
+
