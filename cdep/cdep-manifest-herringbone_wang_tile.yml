@@ -1,0 +1,11 @@
+coordinate:
+  groupId: com.github.jomof
+  artifactId: stb/herringbone_wang_tile
+  version: ${version}
+interfaces:
+  headers:
+    file: ${source}/stb_herringbone_wang_tile.h
+example: |
+  #define STB_HERRINGBONE_WANG_TILE_IMPLEMENTATION
+  #include "stb_herringbone_wang_tile.h"
+
