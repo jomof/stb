@@ -6,6 +6,7 @@ addons:
     packages:
     - gcc-4.8
     - g++-4.8
+fail_fast: true
 script:
 - cd cdep
 - ./cdep fullfill .. ${TRAVIS_TAG:-0.0.0} $(ls cdep-manifest*.yml)
