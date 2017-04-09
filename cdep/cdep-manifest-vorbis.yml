@@ -1,0 +1,11 @@
+coordinate:
+  groupId: com.github.jomof
+  artifactId: stb/vorbis
+  version: ${version}
+interfaces:
+  headers:
+    file: ${source}/stb_vorbis.h
+example: |
+  #define STB_VORBIS_IMPLEMENTATION
+  #include "stb_vorbis.h"
+  
