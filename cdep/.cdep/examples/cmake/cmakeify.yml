@@ -1,0 +1,8 @@
+targets: [iOS, android, linux]
+include: [include]
+badges: no
+android:
+  ndk:
+    versions: [r13b]
+    runtimes: [c++, gnustl, stlport]
+    platforms: [12, 21]
