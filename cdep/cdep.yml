@@ -3,4 +3,7 @@ builders: [cmake, cmakeExamples]
 dependencies:
 - compile: .cdep/fullfill/output/layout/cdep-manifest-c_lexer.yml
 - compile: .cdep/fullfill/output/layout/cdep-manifest-divide.yml
+- compile: .cdep/fullfill/output/layout/cdep-manifest-dxt.yml
+- compile: .cdep/fullfill/output/layout/cdep-manifest-easy_font.yml
+- compile: .cdep/fullfill/output/layout/cdep-manifest-connected_components.yml
 
