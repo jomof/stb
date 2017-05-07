@@ -2,6 +2,8 @@ coordinate:
   groupId: com.github.jomof
   artifactId: stb/image_write
   version: ${version}
+license:
+  name: Public Domain or MIT License
 interfaces:
   headers:
     file: ${source}/stb_image_write.h
