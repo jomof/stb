@@ -2,6 +2,8 @@ coordinate:
   groupId: com.github.jomof
   artifactId: stb/sprintf
   version: ${version}
+license:
+  name: Public Domain or MIT License
 interfaces:
   headers:
     file: ${source}/stb_sprintf.h
